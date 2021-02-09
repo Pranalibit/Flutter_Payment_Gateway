@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payment_gateway/views/RazorPayWeb.dart';
 import 'package:payment_gateway/views/home.dart';
 
 void main() {
@@ -14,8 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: RazorPayWeb(),
     );
   }
 }
-
